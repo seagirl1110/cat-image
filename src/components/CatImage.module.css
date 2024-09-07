@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+}
+
+.title {
+    font-size: 32px;
+    color: #026fc4;
+}
+
+.inner {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load_msg {
+    font-size: 20px;
+}
+
+.image {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.btn_load {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #027fe1;
+    border: 2px solid #027fe1;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn_load:hover {
+    border-color: #3f3a3a;
+}
+
+.btn_load:active {
+    background-color: #026fc4;
+}
